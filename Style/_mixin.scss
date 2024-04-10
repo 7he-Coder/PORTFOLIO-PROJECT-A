@@ -1,0 +1,10 @@
+@mixin FlexBox($al-Item, $Jt-Cont, $d-ro-col) {
+  display: flex;
+  align-items: $al-Item;
+  justify-content: $Jt-Cont;
+  flex-direction: $d-ro-col;
+}
+
+@mixin transit {
+    transition: all .4s ease-in-out;
+}
